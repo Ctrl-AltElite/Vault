@@ -21,7 +21,7 @@ To use Vault, follow the instructions below:
 ./Vault g <output file>
 ```
 
-    Generates a random and safe key and saves it in the specified`<output file>`. Example: `./Vault g master.key`
+* Generates a random and safe key and saves it in the specified`<output file>`. Example: `./Vault g master.key`
 
 2. Encryption:
 
