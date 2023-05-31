@@ -37,7 +37,7 @@ To use Vault, follow the instructions below:
   ./Vault d <key file> <input file> <output file>
   ```
 
-1. Decrypts the `<input file>` using the key stored in the `<key file>` and saves the decrypted data in the `<output file>`. Example: `./Vault d master.key encrypted.bin data.dec`
+* Decrypts the `<input file>` using the key stored in the `<key file>` and saves the decrypted data in the `<output file>`. Example: `./Vault d master.key encrypted.bin data.dec`
 
 ## File Types
 
