@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra
 LIBS = -lcrypto
 
-TARGET = Vault
+TARGET = Vault.app
 
 all: $(TARGET)
 
