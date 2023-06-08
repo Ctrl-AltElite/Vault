@@ -1,10 +1,15 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra
-LIBS = -lcrypto
+LIBS = -lssl -lcrypto
 
-TARGET = Vault.app
+TARGET = Vault
+PRODUCTION = Vault_x64.run
 
 all: $(TARGET)
+prod: $(PRODUCTION)
+
+$(PRODUCTION): main.o
+	$(CXX) $(CXXFLAGS) -o $@ $< $(LIBS) -static
 
 $(TARGET): main.o
 	$(CXX) $(CXXFLAGS) -o $@ $< $(LIBS)
