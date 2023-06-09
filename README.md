@@ -103,7 +103,7 @@ Vault is designed to keep your data secure and encrypted. Remember to keep your 
 
 ## Current version
 
-v0.1.1
+v0.1.2
 
 ### Fixes
 
