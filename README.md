@@ -16,7 +16,7 @@ Vault is a secure software that ensures your data remains 100% safe and encrypte
 <details><summary><b>Linux</b></summary>
 
 <details open><summary><i>Installation with Vault installer</i></summary><br>
-On windows Vault can be installed with its <a href="https://github.com/Ctrl-AltElite/Vault/releases/download/v0.1.2/Vault_0.1.2-1_amd64.deb">installer</a>
+On linux Vault can be installed with its <a href="https://github.com/Ctrl-AltElite/Vault/releases/download/v0.1.2/Vault_0.1.2-1_amd64.deb">installer</a>
 </details>
 
 <details><summary><i>Installation with Vault shell installer</i></summary><br>
@@ -106,6 +106,7 @@ Vault is designed to keep your data secure and encrypted. Remember to keep your 
 v0.1.1
 
 ### Fixes
+
 * README install instructions now work correctly
 * Linux shell installer now works correctly
 
