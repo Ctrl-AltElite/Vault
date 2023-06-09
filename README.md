@@ -14,19 +14,50 @@ Vault is a secure software that ensures your data remains 100% safe and encrypte
 ## Instalation
 
 <details><summary><b>Linux</b></summary>
-<summary open><i>Installation with installer</i></summary><br>
 
-1. Open a terminal<br>
+<details open><summary><i>Installation with Vault shell installer</i></summary><br>
+NOTE: These commands require super-user (sudo) permissions
 
-2. Install curl (usually comes pre-installed
+1. Open a terminal and type the following commands in the terminal
+2. Install curl (usually comes pre-installed)
+
 ```bash
 sudo apt-get install curl
 ```
 
 3. Run Vault installer
+
 ```bash
-curl https://github.com/Ctrl-AltElite/Vault/blob/master/installers/linux.sh | sh
+curl https://github.com/Ctrl-AltElite/Vault/blob/master/installers/linux.sh | sudo sh
 ```
+
+</details>
+
+<details open><summary><i>Compiling from source</i></summary><br>
+
+1. Open a terminal and type the following commands in the terminal
+
+```bash
+# IMPORTANT: make sure you have git, make, g++ and libssl-dev installed
+# if not you can install them with the following command
+# sudo apt install g++ libssl-dev make git
+
+git clone https://github.com/Ctrl-AltElite/Vault.git
+cd Vault
+make
+sudo make install
+
+# If you want to unsintsall Vault you can run the following command
+# sudo make uninstall
+```
+
+</details>
+</details>
+
+<details><summary><b>Windows</b></summary>
+<details open><summary><i>Installation with Vault installer</i></summary><br>
+On windows Vault can be installed with its [installer](https://github.com/Ctrl-AltElite/Vault/releases/download/v0.1.0/Vault.exe)
+</details>
 </details>
 
 ## Usage
@@ -65,6 +96,10 @@ To use Vault, follow the instructions below:
 ## Security Note
 
 Vault is designed to keep your data secure and encrypted. Remember to keep your `<key file>` safe and confidential as it is crucial for decryption. Losing or exposing the `<key file>` may result in permanent data loss.
+
+## Current version
+
+v0.1.0
 
 ## License
 
