@@ -99,7 +99,11 @@ Vault is designed to keep your data secure and encrypted. Remember to keep your 
 
 ## Current version
 
-v0.1.0
+v0.1.1
+
+### Fixes
+* README install instructions now work correctly
+* Linux shell installer now works correctly
 
 ## License
 
