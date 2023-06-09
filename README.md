@@ -15,8 +15,12 @@ Vault is a secure software that ensures your data remains 100% safe and encrypte
 
 <details><summary><b>Linux</b></summary>
 <summary open><i>Installation with installer</i></summary><br>
-1. Install curl (usually comes pre-installed) ```bash sudo apt-get install curl```
-2. Run installer ```bash curl https://github.com/Ctrl-AltElite/Vault/blob/master/installers/linux.sh | sh ```
+
+1. Open a terminal<br>
+
+2. Install curl (usually comes pre-installed) ```bash sudo apt-get install curl```<br>
+
+3. Run installer ```bash curl https://github.com/Ctrl-AltElite/Vault/blob/master/installers/linux.sh | sh ```
 </details>
 
 ## Usage
