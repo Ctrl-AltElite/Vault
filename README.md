@@ -56,7 +56,7 @@ sudo make install
 
 <details><summary><b>Windows</b></summary>
 <details open><summary><i>Installation with Vault installer</i></summary><br>
-On windows Vault can be installed with its [installer](https://github.com/Ctrl-AltElite/Vault/releases/download/v0.1.0/Vault.exe)
+On windows Vault can be installed with its <a href="https://github.com/Ctrl-AltElite/Vault/releases/download/v0.1.0/Vault.exe">installer</a>
 </details>
 </details>
 
