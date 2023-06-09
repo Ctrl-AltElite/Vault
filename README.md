@@ -11,6 +11,14 @@ Vault is a secure software that ensures your data remains 100% safe and encrypte
 * Decryption:
   * Decrypts files using a key file and saves the decrypted data in a specified output file.
 
+## Instalation
+
+<details><summary><b>Linux</b></summary>
+  <summary open><i>Installation with installer</i></summary><br>
+  1. Install curl (usually comes pre-installed) ```bash sudo apt-get install curl```<br>
+  2. Run installer ```bash curl https://github.com/Ctrl-AltElite/Vault/blob/master/installers/linux.sh | sh ```
+</details>
+
 ## Usage
 
 To use Vault, follow the instructions below:
@@ -21,7 +29,7 @@ To use Vault, follow the instructions below:
 ./Vault g <output file>
 ```
 
-* Generates a random and safe key and saves it in the specified`<output file>`. Example: `./Vault g master.key`
+* Generates a random and safe key and saves it in the specified `<output file>`. Example: `./Vault g master.key`
 
 2. Encryption:
 
