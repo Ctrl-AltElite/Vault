@@ -6,10 +6,10 @@ TARGET = Vault
 PRODUCTION = Vault_x64.run
 
 all: $(TARGET)
-prod: $(PRODUCTION)
-
-$(PRODUCTION): main.o
-	$(CXX) $(CXXFLAGS) -o $@ $< $(LIBS) -static
+install:
+	cp $(TARGET) /usr/bin
+uninstall:
+	rm /usr/bin/$(TARGET)
 
 $(TARGET): main.o
 	$(CXX) $(CXXFLAGS) -o $@ $< $(LIBS)
